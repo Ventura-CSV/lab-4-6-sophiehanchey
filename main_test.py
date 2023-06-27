@@ -16,7 +16,7 @@ def test_main_1():
     lines = captureOut.getvalue().split('\n')
     print(lines)
 
-    assert ret == 5
+    assert ret == 6
 
     # regex_string = r'[\w,\W]*' + str(minval) + r'[\w,\W]*'
     # res = re.search(regex_string, lines[0])
